@@ -19,11 +19,11 @@ test('Login Test', () => {
 
     const emailInput = screen.getByTestId('email-input');
     expect(emailInput).toBeInTheDocument();
-    fireEvent.change(emailInput, {target: {value: 'roopamrulz@gmail.com'}})
-    expect(emailInput).toHaveValue('roopamrulz@gmail.com');
+    fireEvent.change(emailInput, {target: {value: 'username@gmail.com'}})
+    expect(emailInput).toHaveValue('username@gmail.com');
 
     const passwordInput = screen.getByTestId('password-input');
     expect(passwordInput).toBeInTheDocument();
-    fireEvent.change(passwordInput, {target: {value: '$oftwares3'}})
-    expect(passwordInput).toHaveValue('$oftwares3');
+    fireEvent.change(passwordInput, {target: {value: '12345678'}})
+    expect(passwordInput).toHaveValue('12345678');
 })
