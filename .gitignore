@@ -3,7 +3,12 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.pnp.jsnode_modules
+npm-debug.log
+Dockerfile.dev
+Dockerfile.prod
+.dockerignore
+
 
 # testing
 /coverage
