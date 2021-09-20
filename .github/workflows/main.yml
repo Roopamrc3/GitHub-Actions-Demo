@@ -19,8 +19,7 @@ jobs:
       - name: Running Test
         run: yarn test
         
-         deploy:
-         
+  deploy:
     name: Deploying
     needs: [test]
     runs-on: ubuntu-20.04
