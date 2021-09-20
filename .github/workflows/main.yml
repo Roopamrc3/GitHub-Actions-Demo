@@ -21,7 +21,6 @@ jobs:
         
   deploy:
     name: Deploying
-    needs: [test]
     runs-on: ubuntu-20.04
     steps:
       - name: SSH & Deploy
